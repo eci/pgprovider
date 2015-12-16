@@ -34,3 +34,4 @@ C:\Projects\pgprovider\pgProvider.Tests\bin\Debug\zh-CN\Npgsql.resources.dll
 C:\Projects\pgprovider\pgProvider.Tests\obj\x86\Debug\pgProvider.Tests.csprojResolveAssemblyReference.cache
 C:\Projects\pgprovider\pgProvider.Tests\obj\x86\Debug\pgProvider.Tests.exe
 C:\Projects\pgprovider\pgProvider.Tests\obj\x86\Debug\pgProvider.Tests.pdb
+C:\Users\doug\Source\Repos\pgprovider\pgProvider.Tests\obj\x86\Debug\pgProvider.Tests.csprojResolveAssemblyReference.cache
