@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3BCF19AE-AD3C-40B7-959E-F55BE84A32EC}</ProjectGuid>
+    <ProjectGuid>{3766A824-B0E1-4919-BB44-1F9A36C247EF}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>GenEncryptionKeyConsole</RootNamespace>

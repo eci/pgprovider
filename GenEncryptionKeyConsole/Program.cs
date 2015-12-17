@@ -3,9 +3,9 @@ using pgProvider;
 
 namespace GenEncryptionKeyConsole
 {
-    public class Program
+    class Program
     {
-        public void Main(string[] args)
+        static void Main(string[] args)
         {
             Console.WriteLine(Encryption.GenerateAESKey().ToBase64());
             Console.WriteLine("Hit Enter to end.");
