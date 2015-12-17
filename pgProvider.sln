@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pgProvider", "pgProvider\pgProvider.csproj", "{28535132-CE32-442D-B037-E42331164034}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pgProvider.Tests", "pgProvider.Tests\pgProvider.Tests.csproj", "{8E478CAC-9F93-4EDD-89D6-69AAFD9F2BB6}"
@@ -10,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{B677F8
 		.nuget\NuGet.exe = .nuget\NuGet.exe
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenEncryptionKeyConsole", "ConsoleApplication1\GenEncryptionKeyConsole.csproj", "{3BCF19AE-AD3C-40B7-959E-F55BE84A32EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,11 +25,12 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{28535132-CE32-442D-B037-E42331164034}.Debug|Any CPU.ActiveCfg = DEV|Any CPU
-		{28535132-CE32-442D-B037-E42331164034}.Debug|Any CPU.Build.0 = DEV|Any CPU
-		{28535132-CE32-442D-B037-E42331164034}.Debug|Mixed Platforms.ActiveCfg = DEV|Any CPU
-		{28535132-CE32-442D-B037-E42331164034}.Debug|Mixed Platforms.Build.0 = DEV|Any CPU
-		{28535132-CE32-442D-B037-E42331164034}.Debug|x86.ActiveCfg = DEV|Any CPU
+		{28535132-CE32-442D-B037-E42331164034}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28535132-CE32-442D-B037-E42331164034}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28535132-CE32-442D-B037-E42331164034}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{28535132-CE32-442D-B037-E42331164034}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{28535132-CE32-442D-B037-E42331164034}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{28535132-CE32-442D-B037-E42331164034}.Debug|x86.Build.0 = Debug|Any CPU
 		{28535132-CE32-442D-B037-E42331164034}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28535132-CE32-442D-B037-E42331164034}.Release|Any CPU.Build.0 = Release|Any CPU
 		{28535132-CE32-442D-B037-E42331164034}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
@@ -41,6 +46,18 @@ Global
 		{8E478CAC-9F93-4EDD-89D6-69AAFD9F2BB6}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{8E478CAC-9F93-4EDD-89D6-69AAFD9F2BB6}.Release|x86.ActiveCfg = Release|x86
 		{8E478CAC-9F93-4EDD-89D6-69AAFD9F2BB6}.Release|x86.Build.0 = Release|x86
+		{3BCF19AE-AD3C-40B7-959E-F55BE84A32EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BCF19AE-AD3C-40B7-959E-F55BE84A32EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BCF19AE-AD3C-40B7-959E-F55BE84A32EC}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{3BCF19AE-AD3C-40B7-959E-F55BE84A32EC}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{3BCF19AE-AD3C-40B7-959E-F55BE84A32EC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3BCF19AE-AD3C-40B7-959E-F55BE84A32EC}.Debug|x86.Build.0 = Debug|Any CPU
+		{3BCF19AE-AD3C-40B7-959E-F55BE84A32EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BCF19AE-AD3C-40B7-959E-F55BE84A32EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BCF19AE-AD3C-40B7-959E-F55BE84A32EC}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{3BCF19AE-AD3C-40B7-959E-F55BE84A32EC}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{3BCF19AE-AD3C-40B7-959E-F55BE84A32EC}.Release|x86.ActiveCfg = Release|Any CPU
+		{3BCF19AE-AD3C-40B7-959E-F55BE84A32EC}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

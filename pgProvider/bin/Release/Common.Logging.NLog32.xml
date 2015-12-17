@@ -347,7 +347,7 @@
             <summary>
             Log a message with the <see cref="F:Common.Logging.LogLevel.Warn"/> level.
             </summary>
-            <param name="formatProvider">An <see cref="T:System.IFormatProvider"/> that supplies culture-specific formatting Warnrmation.</param>
+            <param name="formatProvider">An <see cref="T:System.IFormatProvider"/> that supplies culture-specific formatting Information.</param>
             <param name="format">The format of the message object to log.<see cref="M:System.String.Format(System.String,System.Object[])"/> </param>
             <param name="args"></param>
         </member>
@@ -355,7 +355,7 @@
             <summary>
             Log a message with the <see cref="F:Common.Logging.LogLevel.Warn"/> level.
             </summary>
-            <param name="formatProvider">An <see cref="T:System.IFormatProvider"/> that supplies culture-specific formatting Warnrmation.</param>
+            <param name="formatProvider">An <see cref="T:System.IFormatProvider"/> that supplies culture-specific formatting Information.</param>
             <param name="format">The format of the message object to log.<see cref="M:System.String.Format(System.String,System.Object[])"/> </param>
             <param name="exception">The exception to log.</param>
             <param name="args"></param>
@@ -669,7 +669,7 @@
         </member>
         <member name="T:Common.Logging.NLog.NLogLoggerFactoryAdapter">
             <summary>
-            Concrete subclass of ILoggerFactoryAdapter specific to NLog 1.0.0.505.
+            Concrete subclass of ILoggerFactoryAdapter specific to NLog.
             </summary>
             <remarks>
             <para>Note, that you cannot use NLog in medium trust environments unless you use an unsigned build</para>
