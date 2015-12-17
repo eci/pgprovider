@@ -1,0 +1,16 @@
+C:\Users\doug\Source\Repos\pgprovider\GenEncryptionKeyConsole\obj\Debug\GenEncryptionKeyConsole.csprojResolveAssemblyReference.cache
+C:\Users\doug\Source\Repos\pgprovider\GenEncryptionKeyConsole\bin\Debug\GenEncryptionKeyConsole.exe.config
+C:\Users\doug\Source\Repos\pgprovider\GenEncryptionKeyConsole\bin\Debug\GenEncryptionKeyConsole.exe
+C:\Users\doug\Source\Repos\pgprovider\GenEncryptionKeyConsole\bin\Debug\GenEncryptionKeyConsole.pdb
+C:\Users\doug\Source\Repos\pgprovider\GenEncryptionKeyConsole\bin\Debug\pgProvider.dll
+C:\Users\doug\Source\Repos\pgprovider\GenEncryptionKeyConsole\bin\Debug\Common.Logging.Core.dll
+C:\Users\doug\Source\Repos\pgprovider\GenEncryptionKeyConsole\bin\Debug\Npgsql.dll
+C:\Users\doug\Source\Repos\pgprovider\GenEncryptionKeyConsole\bin\Debug\Common.Logging.dll
+C:\Users\doug\Source\Repos\pgprovider\GenEncryptionKeyConsole\bin\Debug\pgProvider.pdb
+C:\Users\doug\Source\Repos\pgprovider\GenEncryptionKeyConsole\bin\Debug\Common.Logging.Core.pdb
+C:\Users\doug\Source\Repos\pgprovider\GenEncryptionKeyConsole\bin\Debug\Common.Logging.Core.xml
+C:\Users\doug\Source\Repos\pgprovider\GenEncryptionKeyConsole\bin\Debug\Npgsql.xml
+C:\Users\doug\Source\Repos\pgprovider\GenEncryptionKeyConsole\bin\Debug\Common.Logging.pdb
+C:\Users\doug\Source\Repos\pgprovider\GenEncryptionKeyConsole\bin\Debug\Common.Logging.xml
+C:\Users\doug\Source\Repos\pgprovider\GenEncryptionKeyConsole\obj\Debug\GenEncryptionKeyConsole.exe
+C:\Users\doug\Source\Repos\pgprovider\GenEncryptionKeyConsole\obj\Debug\GenEncryptionKeyConsole.pdb

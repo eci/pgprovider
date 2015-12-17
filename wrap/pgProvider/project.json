@@ -1,0 +1,30 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "dnx451": {
+      "bin": {
+        "assembly": "../../pgProvider/bin/Release/pgProvider.dll",
+        "pdb": "../../pgProvider/bin/Release/pgProvider.pdb"
+      },
+      "dependencies": {
+        "Common.Logging.Core": "1.0.0-*",
+        "Common.Logging": "1.0.0-*",
+        "Npgsql": "1.0.0-*"
+      }
+    },
+    "net46": {
+      "wrappedProject": "../../pgProvider/pgProvider.csproj",
+      "bin": {
+        "assembly": "../../pgProvider/obj/{configuration}/pgProvider.dll",
+        "pdb": "../../pgProvider/obj/{configuration}/pgProvider.pdb"
+      },
+      "dependencies": {
+        "Common.Logging": "3.3.1",
+        "Common.Logging.Core": "3.3.1",
+        "Common.Logging.NLog32": "3.3.1",
+        "NLog": "3.2.0.0",
+        "Npgsql": "3.0.4"
+      }
+    }
+  }
+}

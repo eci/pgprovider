@@ -1,0 +1,1 @@
+C:\Users\doug\Source\Repos\pgprovider\artifacts\obj\GenEncryptionKeyConsole\Debug\GenEncryptionKeyConsole.xprojResolveAssemblyReference.cache

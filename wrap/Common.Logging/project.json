@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "dnx451": {
+      "bin": {
+        "assembly": "../../pgProvider/bin/Release/Common.Logging.dll",
+        "pdb": "../../pgProvider/bin/Release/Common.Logging.pdb"
+      },
+      "dependencies": {
+        "Common.Logging.Core": "1.0.0-*"
+      }
+    }
+  }
+}
