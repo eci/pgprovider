@@ -7,7 +7,8 @@ namespace GenEncryptionKeyConsole
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Encryption.GenerateAESKey().ToBase64());
+            var encryptKey = Encryption.GenerateAESKey().ToBase64();
+            Console.WriteLine(encryptKey);
             Console.WriteLine("Hit Enter to end.");
             Console.ReadLine();
         }

@@ -506,9 +506,10 @@ namespace pgProvider
                 return null;
             }
 
-            if (_EnablePasswordRetrieval || _RequiresQuestionAndAnswer)
-            {
-                _logger.Debug(d => d("Password questions are used; updating the question and answer for the user..."));
+            //if (_EnablePasswordRetrieval || _RequiresQuestionAndAnswer)
+            if (_RequiresQuestionAndAnswer)
+                {
+                    _logger.Debug(d => d("Password questions are used; updating the question and answer for the user..."));
                 try
                 {
                     UpdateQAndA(username, passwordQuestion, passwordAnswer);
